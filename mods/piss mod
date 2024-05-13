@@ -1,0 +1,14 @@
+elements.piss = {
+    category: "liquids",
+    color: ["#b6ccd8", "#c5cfd6", "#cbd5db", "#6da5e0"],
+    state: "liquid",
+    behavior: behaviors.POWDER,
+    temp: 20,
+    tempHigh: 100,
+    stateHigh: "hot_piss",
+    reactions: {
+        "water": {elem1: null, elem2: "dirty_water"},
+        "human": {elem1: "methamphetamine", elem2: "plague", chance: 0.001},
+        "plant": {elem1: "methamphetamine", elem2: "dead_plant", chance: 0.005},
+    },
+};
